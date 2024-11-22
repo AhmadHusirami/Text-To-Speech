@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./logo/favicon.jpg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./logo/favicon.jpg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./logo/favicon.jpg" />
+    <link rel="manifest" href="./logo/site.webmanifest" />
+    <title>Text to Speech | Ahmad Said Husirami</title>
+  </head>
+  <body onload="resetEverything()">
+    <div class="wrapper">
+      <header>Text To Speech</header>
+      <form action="#">
+        <div class="row">
+          <label>Enter Text</label>
+          <textarea></textarea>
+        </div>
+        <div class="row">
+          <label>Select Voice</label>
+          <div class="outer"><select></select></div>
+        </div>
+        <div class="countdown">
+          <span id="countdown-display">5</span> seconds
+        </div>
+        <div id="reset">Reset</div>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; <span id="year"></span> <a href="https://ahmad-husirami.vercel.app/" class="footer-name">Ahmad Said Husirami</a>. All rights reserved.</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
