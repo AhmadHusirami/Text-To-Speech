@@ -1,4 +1,4 @@
-# convert-text-to-speech
+# Convert Text To Speech
  In this project text will be converted text to speech. I made this project with use of HTML, CSS and javascript. You can also reset speech and text by refreshing page.
 
 ### Made by :- Ahmad Said Husirami
@@ -9,7 +9,7 @@
 
 <hr />
 
-### Tech stack :- 
+### Tech stack :
 | HTML | CSS | Javascript | 
 
 <hr />
